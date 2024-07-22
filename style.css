@@ -40,8 +40,18 @@
 /* Form styling */
 
 .content-container {
-    background-color: red;
+    background-color: lightgrey;
     height: 100vh;
     width: 68%;
     margin: auto;
+    display: grid;
+    grid-template-columns: 35% 1fr;
+}
+
+img {
+    grid-column: 1;
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+
 }
