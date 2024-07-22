@@ -40,30 +40,8 @@
 /* Form styling */
 
 .content-container {
-    display: grid;
-    grid-template-columns: 5% 1fr 1fr 15%;
-}
-
-img {
-    background-color: grey;
+    background-color: red;
     height: 100vh;
-    width: 300px;
-    grid-column: 2;
-    justify-self: end;
-}
-
-.form-container {
-    display: grid;
-    background-color: lightgray;
-    height: 100vh;
-    width: 450px;
-    grid-column: 3;
-    justify-self: start;
-}
-
-form {
-    width: 100%;
-    height: 200px;
-    background-color: white;
-    align-self: center;
+    width: 68%;
+    margin: auto;
 }
