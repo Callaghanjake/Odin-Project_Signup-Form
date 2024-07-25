@@ -54,7 +54,7 @@ img {
     background-color: gray;
 }
 
-form {
+.form-container {
     grid-column: 2;
     height: 50vh;
     background-color: white;
