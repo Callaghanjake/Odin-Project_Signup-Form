@@ -60,3 +60,19 @@ img {
     background-color: white;
     align-self: center;
 }
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+#first-name, #email, #password {
+    display: block;
+    grid-column: 1;
+}
+
+#last-name, #phone-number, #password-confirm {
+    display: block;
+    grid-column: 2;
+}
