@@ -40,18 +40,21 @@
 /* Form styling */
 
 .content-container {
-    background-color: lightgrey;
+    background-color: rgb(235, 235, 235);
     height: 100vh;
     margin: auto;
     display: grid;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 37% 1fr;
 }
 
 img {
     grid-column: 1;
     height: 100vh;
     width: 100%;
-    background-color: gray;
+    background-image: url('img/clement-m-igX2deuD9lc-unsplash.jpg');
+    background-size: cover;
+    /* Photo by <a href="https://unsplash.com/@cmreflections?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clément M.</a> on <a href="https://unsplash.com/photos/photo-of-pine-trees-igX2deuD9lc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  */
 }
 
 .form-container {
