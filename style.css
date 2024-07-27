@@ -55,15 +55,35 @@
     background-size: cover;
 }
 
+.logo {
+    position: relative;
+    background-color: white;
+    top: 50px;
+    height: 17.5vh;
+    opacity: 0.5;
+    padding: 15px 0;
+}
+
+.logo > img {
+    width: 50px;
+    margin: auto;
+}
+
+.tag-line {
+    width: 100%;
+    text-align: center;
+}
+
 .credit {
     position: absolute;
     bottom: 10px;
-    left: 70px;
+    left: 10px;
+    color: grey;
 }
 
 .credit > a {
     text-decoration: none;
-    color: black;
+    color: grey;
 }
 
 .form-container {
