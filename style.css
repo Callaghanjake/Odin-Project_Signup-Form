@@ -47,14 +47,23 @@
     grid-template-columns: 37% 1fr;
 }
 
-img {
+.side-image {
     grid-column: 1;
     height: 100vh;
     width: 100%;
     background-image: url('img/clement-m-igX2deuD9lc-unsplash.jpg');
     background-size: cover;
-    /* Photo by <a href="https://unsplash.com/@cmreflections?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clément M.</a> on <a href="https://unsplash.com/photos/photo-of-pine-trees-igX2deuD9lc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  */
+}
+
+.credit {
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+}
+
+.credit > a {
+    text-decoration: none;
+    color: black;
 }
 
 .form-container {
@@ -62,6 +71,7 @@ img {
     height: 50vh;
     background-color: white;
     align-self: center;
+    box-shadow: 1px 5px 10px lightgrey;
 }
 
 form {
