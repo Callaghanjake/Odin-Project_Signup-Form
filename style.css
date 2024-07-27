@@ -114,6 +114,7 @@ label > input {
     font-size: 16px;
     font-weight: 100;
     width: 70%;
+    border-radius: 6px;
 }
 
 #first-name, #email, #password {
@@ -132,9 +133,11 @@ label > input {
     justify-self: start;
     margin-top: 20px;
     padding: 5px;
-    border: solid black 1px;
+    border: solid rgb(65, 97, 65) 1px;
     color: white;
     background-color: rgb(85, 126, 85);
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px lightgrey;
 }
 
 input:focus {
