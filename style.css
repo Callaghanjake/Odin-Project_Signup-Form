@@ -113,6 +113,7 @@ label > input {
     padding: 5px;
     font-size: 16px;
     font-weight: 100;
+    width: 70%;
 }
 
 #first-name, #email, #password {
@@ -134,4 +135,14 @@ label > input {
     border: solid black 1px;
     color: white;
     background-color: rgb(85, 126, 85);
+}
+
+input:focus {
+    border: solid blue 1px;
+    box-shadow: 0 0 10px blue;
+}
+
+input:invalid {
+    border: solid red 1px;
+    box-shadow: 0 0 10px red;
 }
