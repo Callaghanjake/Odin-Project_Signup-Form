@@ -10,39 +10,48 @@
     <div class="content-container">
         <div class="side-image">
             <div class="logo">
-                <img src="./img/JCLogov2.png">
-                <p class="tag-line">Brought to you by the Odin Project.</p>
+                <img src="./img/JCLogov2.png" loading="lazy">
+                <p class="tag-line">Brought to you by Odin Project learning.</p>
             </div>
             <div class="credit">
                 <a href="https://unsplash.com/@cmreflections?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clément M.</a> on <a href="https://unsplash.com/photos/photo-of-pine-trees-igX2deuD9lc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
             </div>
         </div>
 
+        <div class="info">
+            <p>This is not a real online service! I'm just working my way through
+                The Odin Project curriculum.</p><br>
+            <p>Honestly, I struggled with the calculator
+                assignment because I tried to go at it in a complicated way. But then to
+                come back to straight forward CSS activities...</p><br>
+            <p>Well anyway, thanks for stopping by.</p>
+        </div>
+
         <div class="form-container">
             <form action="#" method="post">
 
-                <label class="first-name-label" for="first-name"> FIRST NAME
-                    <input type="text" id="first-name" placeholder="Thor">
+                <label class="first-name-label" for="first-name"> FIRST NAME *
+                    <input type="text" id="first-name" placeholder="Thor" required>
                 </label>
 
                 <label for="last-name"> LAST NAME
                     <input type="text" id="last-name" Placeholder="Odinson">
                 </label>
 
-                <label for="email"> EMAIL
-                    <input type="email" id="email" Placeholder="thorodinson@email.com">
+                <label for="email"> EMAIL *
+                    <input type="email" id="email" Placeholder="thorodinson@email.com" required>
                 </label>
 
                 <label for="phone-number"> PHONE NUMBER
                     <input type="tel" id="phone-number" Placeholder="01695 579 146">
                 </label>
 
-                <label for="password"> PASSWORD
-                    <input type="password" id="password">
+                <label for="password"> PASSWORD *
+                    <input type="password" id="password" required>
                 </label>
 
-                <label for="password-confirm"> CONFIRM PASSWORD
-                    <input type="password" id="password-confirm">
+                <label for="password-confirm"> CONFIRM PASSWORD *
+                    <input type="password" id="password-confirm" required>
                 </label>
 
                 <button class="submit" type="submit">Create Account</button>

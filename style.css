@@ -46,6 +46,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: 37% 1fr;
+    grid-template-rows: 30% 1fr;
 }
 
 .side-image {
@@ -59,7 +60,7 @@
 .logo {
     position: relative;
     background-color: white;
-    top: 50px;
+    top: 85px;
     height: 17.5vh;
     opacity: 0.5;
     padding: 15px 0;
@@ -87,11 +88,20 @@
     color: grey;
 }
 
+.info {
+    grid-column: 2;
+    grid-row: 1;
+    width: 80%;
+    padding: 10px;
+    align-self: center;
+}
+
 .form-container {
     grid-column: 2;
-    height: 50vh;
+    grid-row: 2;
+    height: 45vh;
     background-color: white;
-    align-self: center;
+    align-self: start;
     box-shadow: 1px 5px 10px lightgrey;
 }
 
@@ -133,7 +143,7 @@ label > input {
     justify-self: start;
     margin-top: 20px;
     padding: 5px;
-    border: solid rgb(65, 97, 65) 1px;
+    border: solid rgb(85, 126, 85) 1px;
     color: white;
     background-color: rgb(85, 126, 85);
     border-radius: 4px;
@@ -145,7 +155,7 @@ input:focus {
     box-shadow: 0 0 10px blue;
 }
 
-input:invalid {
+input:focus:invalid {
     border: solid red 1px;
     box-shadow: 0 0 10px red;
 }
