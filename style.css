@@ -46,7 +46,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: 37% 1fr;
-    grid-template-rows: 30% 1fr;
+    grid-template-rows: 30% 1fr 1fr;
 }
 
 .side-image {
@@ -148,6 +148,18 @@ label > input {
     background-color: rgb(85, 126, 85);
     border-radius: 4px;
     box-shadow: 5px 5px 5px lightgrey;
+}
+
+.log-in {
+    grid-column: 2;
+    grid-row: 3;
+    align-self: start;
+    margin: 10px;
+}
+
+.log-in > a {
+    text-decoration: none;
+    color: black;
 }
 
 input:focus {
