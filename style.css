@@ -38,6 +38,11 @@
       isolation: isolate;
     }
 
+@font-face {
+    font-family: downloaded-font;
+    src: url(./font/FiraSans-Regular.otf);
+}
+
 /* Form styling */
 
 .content-container {
@@ -72,6 +77,7 @@
 }
 
 .tag-line {
+    font-family: downloaded-font;
     width: 100%;
     text-align: center;
 }
