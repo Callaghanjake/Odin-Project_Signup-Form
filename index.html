@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP Sign Up Form</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="content-container">
@@ -28,10 +29,10 @@
         </div>
 
         <div class="form-container">
-            <form action="#" method="post">
+            <form class="signup-form" action="./index.html" method="post">
 
                 <label class="first-name-label" for="first-name"> FIRST NAME *
-                    <input type="text" id="first-name" placeholder="Thor" required>
+                    <input type="text" id="first-name" placeholder="Thor" requir>
                 </label>
 
                 <label for="last-name"> LAST NAME
@@ -39,7 +40,7 @@
                 </label>
 
                 <label for="email"> EMAIL *
-                    <input type="email" id="email" Placeholder="thorodinson@email.com" required>
+                    <input type="email" id="email" Placeholder="thorodinson@email.com" requir>
                 </label>
 
                 <label for="phone-number"> PHONE NUMBER
@@ -47,12 +48,14 @@
                 </label>
 
                 <label for="password"> PASSWORD *
-                    <input type="password" id="password" required>
+                    <input type="password" id="password" class="password-input" requir>
                 </label>
 
                 <label for="password-confirm"> CONFIRM PASSWORD *
-                    <input type="password" id="password-confirm" required>
+                    <input type="password" id="password-confirm" class="password-confirm-input" requir>
                 </label>
+
+                <span class="input-notice"></span>
 
                 <button class="submit" type="submit">Create Account</button>
             </form>
