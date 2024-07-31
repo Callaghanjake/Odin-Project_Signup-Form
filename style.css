@@ -51,7 +51,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: 37% 1fr;
-    grid-template-rows: 30% 1fr 1fr;
+    grid-template-rows: 30% 1fr 1fr 1fr;
 }
 
 .side-image {
@@ -117,10 +117,12 @@ form {
     padding: 20px;
 }
 
-/* .password-notice {
+.password-notice {
     grid-column: 2;
+    grid-row: 4;
+    align-self: center;
     color: red;
-} */
+}
 
 form > label {
     margin-top: 15px;
@@ -150,6 +152,7 @@ label > input {
 
 .submit {
     grid-column: 1;
+    grid-row: 4;
     min-width: 50%;
     justify-self: start;
     margin-top: 20px;
